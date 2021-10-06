@@ -1800,6 +1800,7 @@ ol {
   -ms-grid-column-span: 2;
   grid-area: life;
   padding: 40px;
+  line-height: 2.5rem;
 }
 
 .life p {
@@ -1813,6 +1814,7 @@ ol {
   -ms-grid-column-span: 2;
   grid-area: aspirations;
   padding: 40px;
+  line-height: 3.5rem;
 }
 
 .aspirations p {
@@ -1841,6 +1843,7 @@ ol {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: traits;
+  line-height: 2.5rem;
 }
 
 .traits ol {
@@ -3124,6 +3127,18 @@ canvas {
   }
   .desktoptext {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 1244px) {
+  .aspirations p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .life p {
+    text-align: center;
   }
 }
 

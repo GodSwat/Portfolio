@@ -67,6 +67,7 @@
   .life {
     grid-area: life;
     padding: 40px; 
+    line-height: 2.5rem;
   }
 
   .life p{
@@ -75,14 +76,15 @@
     
   }
   
-  .aspirations { grid-area: aspirations;
-                 padding: 40px;
+  .aspirations {
+     grid-area: aspirations;
+     padding: 40px;
+     line-height: 3.5rem;
   }
 
   .aspirations p{
     font-size: 2.4rem;
     text-align: justify;
-
   }
   
   .likeshobbies {
@@ -101,6 +103,7 @@
   .traits {
     padding: 40px;
     grid-area: traits;
+    line-height: 2.5rem;
   }
   
   .traits ol{
