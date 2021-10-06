@@ -20,6 +20,7 @@
 body, html{
   overflow-x: hidden;
   scroll-behavior: smooth;
+  
 }
 
 body{
@@ -291,7 +292,6 @@ body{
       background: rgba(165, 18, 18, 0.747)
     }
   }
-
     
   #reflection{
     display: flex;
@@ -341,7 +341,6 @@ body{
       z-index: 1;
       animation: steam 20s linear infinite;
   }
-
 
   #reflection.bsbg:after{
     content: '';
@@ -409,8 +408,6 @@ body{
       animation: steam 20s linear infinite;
   }
 
-
-
   @keyframes steam {
     0% {
       background-position: 0 0;
@@ -420,8 +417,7 @@ body{
     }
     100% {
       background-position: 0 0;
-    }
-    
+    }    
   }
 
 
@@ -483,8 +479,7 @@ body{
     transition: 0.3s;
     transform: skew(0deg, 0deg);
     box-shadow:
-        0 10px 27px rgba(0, 0, 0, 0.05);
-  
+        0 10px 27px rgba(0, 0, 0, 0.05);  
   }
     
   .hamburger {
