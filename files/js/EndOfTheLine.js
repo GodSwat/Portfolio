@@ -61,7 +61,7 @@ function EOTLswitch(border, finalebg, textcolor, finalemessage, MMbg, TDbg, AWbg
 
 ONbutton.addEventListener('click', function(){
     EOTLswitch(
-       "white solid 2px", "rgba(0, 0, 0, 0.76)", "white", '"Bis Vincit, Qui Se Vincit In Victoria"', "url(/files/images/MM.webp)", "url(/files/images/T.webp","url(/files/images/comingsoon.webp", "white 5px 5px 8px", "5.1rem", "white solid 2px", "6", "", "white", "#00ff00", "0 0 10px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00", "not-allowed","#ff0000", "black", "none", "pointer", "The switch is now <span id='statuscolor'>ON</span>.", "pointer"
+       "white solid 2px", "rgba(0, 0, 0, 0.76)", "white", '"Bis Vincit, Qui Se Vincit In Victoria"', "url(./files/images/MM.webp)", "url(./files/images/T.webp","url(./files/images/comingsoon.webp", "white 5px 5px 8px", "5.1rem", "white solid 2px", "6", "", "white", "#00ff00", "0 0 10px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00", "not-allowed","#ff0000", "black", "none", "pointer", "The switch is now <span id='statuscolor'>ON</span>.", "pointer"
     )
     let switchstatus = document.getElementById('statuscolor');
     switchstatus.style.color="#00ff00";
