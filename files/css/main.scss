@@ -452,9 +452,303 @@ body{
 }
 
 @media only screen and(max-width: 1808px){
-  .aspirations p{
+  #switchOFF{
+    width: 38rem;
+    height: 38rem;
+  }
+
+  #switchOFFcontainer{
+    width: 38rem;
+    height: 38rem;
+  }
+
+  #switchOFFquestion{
+    font-size: 2.95rem;
+  }
+
+  #ON{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #OFF{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #switchOFFstatus{
+    font-size: 3.5rem;
+    width: auto;
+  }
+
+}
+
+
+@media only screen and(max-width: 1645px){
+  #switchOFF{
+    width: 35rem;
+    height: 35rem;
+  }
+
+  #switchOFFcontainer{
+    width: 35rem;
+    height: 35rem;
+  }
+
+  #switchOFFquestion{
+    font-size: 2.95rem;
+  }
+
+  #ON{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #OFF{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #switchOFFstatus{
+    font-size: 3.5rem;
+    width: auto;
+  }
+
+}
+
+@media only screen and(max-width: 1599px){
+  #switchOFF{
+    width: 35rem;
+    height: 40rem;
+  }
+
+  #switchOFFcontainer{
+    width: 35rem;
+    height: 40rem;
+  }
+
+  #switchOFFquestion{
+    font-size: 5rem;
+  }
+
+  #ON{
+    height: 10rem;
+    width: 15rem;
+    font-size: 5rem;
+  }
+
+  #OFF{
+    height: 10rem;
+    width: 15rem;
+    font-size: 5rem;
+  }
+
+  #switchOFFstatus{
+    font-size: 3.29rem;
+    width: auto;
+  }
+
+  #additionalworks{
+    width: 25rem;
+  }
+
+  #credit{
+    width: 25rem;
+  }
+
+  #credit h1{
+    font-size: 3rem;
+  }
+
+  #finale{
+    width: 45rem;
+  }
+}
+
+
+
+@media only screen and(max-width: 1440px){
+  #switchOFF{
+    width: 30rem;
+    height: 40rem;
+  }
+
+  #switchOFFcontainer{
+    width: 30rem;
+    height: 40rem;
+  }
+
+  #switchOFFquestion{
+    font-size: 3rem;
+  }
+
+  #ON{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #OFF{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #switchOFFstatus{
+    font-size: 2.7rem;
+    width: auto;
+  }
+
+  #additionalworks{
+    width: 20rem;
     text-align: center;
   }
+
+  #credit{
+    width: 20rem;
+  }
+
+  #thanksTD, #thanksMarazza, #AWimg{
+    width: 15rem;
+    background-position: center center !important;
+  }
+
+  #credit h1{
+    font-size: 3rem;
+  }
+
+  #finale{
+    width: 40rem;
+  }
+}
+
+@media only screen and(max-width: 1200px){
+  #switchOFF{
+    width: 30rem;
+    height: 40rem;
+  }
+
+  #switchOFFcontainer{
+    width: 30rem;
+    height: 40rem;
+  }
+
+  #switchOFFquestion{
+    font-size: 3rem;
+  }
+
+  #ON{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #OFF{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #switchOFFstatus{
+    font-size: 2.7rem;
+    width: auto;
+  }
+
+  #additionalworks{
+    width: 14rem;
+    text-align: center;
+    border: none !important;
+    background: none !important;
+  }
+
+  #credit{
+    width: 14rem;
+    border: none !important;
+    background: none !important;
+  }
+
+  #thanksTD, #thanksMarazza, #AWimg{
+    width: 15rem;
+    background-position: center center !important;
+  }
+
+  #credit h1{
+    font-size: 3rem;
+  }
+
+  #finale{
+    width: 40rem;
+  }
+}
+
+@media only screen and(max-width: 1120px){
+  #switchOFF{
+    width: 25rem;
+    height: 40rem;
+  }
+
+  #switchOFFcontainer{
+    width: 25rem;
+    height: 40rem;
+  }
+
+  #switchOFFquestion{
+    font-size: 2.95rem;
+  }
+
+  #ON{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #OFF{
+    height: 10rem;
+    width: 10rem;
+    font-size: 5rem;
+  }
+
+  #switchOFFstatus{
+    font-size: 3.5rem;
+    width: auto;
+  }
+
+  #additionalworks{
+    width: 15rem;
+    font-size: 2rem;
+    text-align: center;
+    border: none !important;
+    background: none !important;
+    }
+
+  #AWimg{
+    width: 15rem;
+  }
+
+  #credit{
+    width: 15rem;
+    border: none !important;
+    background: none !important;
+  }
+
+  #credit h1{
+    font-size: 3rem;
+  }
+
+  #thanksTD, #thanksMarazza{
+    width: 15rem;
+    height: 12rem;
+    background-position: center center !important;
+  }
+
+  #finale{
+    width: 35rem;
+  }
+
 }
 
 @media only screen and(max-width: 1220px){
