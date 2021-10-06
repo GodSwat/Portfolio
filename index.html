@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Hell</title>
+  <link rel="stylesheet" href="/files/css/main.css" />
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e52f04bcf0.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geo&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="navbar-container">
+        <div class="logo-container">
+          <a href="#startup" class="logo"><div id="root">
+            <div data-text="TFB" id="text">
+              TFB
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="container" id="nav-menu">
+          <ul class="navlist">
+            <li class="about"><a href="#about" class="listlink">About me</a></li>
+            <li class=" work-examples"><a href="#work-examples" class="listlink">Work examples</a></li>
+            <li class=" contact"><a href="#contact" class="listlink">Contact</a></li>
+            <li class=" end-of-the-line"><a href="#end-of-the-line" class="listlink">End of the Line</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+    <div id="startup">
+      <canvas></canvas>
+        <div class="wrapper">
+          <div class="typing-demo">Hello there, welcome.</div>
+        </div>
+
+        <div class="myname">
+          <svg class="namesvg" viewBox="0 0 960 300">
+            <symbol id="s-text">
+              <text class="desktoptext" text-anchor="middle" x="50%" y="80%">I'M TOMÁS</text>
+              <text class="mobiletext" text-anchor="middle" x="50%" y="50%">I'M</text> <text class="mobiletext" text-anchor="middle" x="50%" y="100%">TOMÁS</text>
+            </symbol>
+
+            <g class="g-ants">
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+        </svg>
+      </div>
+    </div>
+
+    <a href="#about">
+      <svg class="arrow">
+        <path class="a1" d="M0 0 L30 22 L60 0"></path>
+        <path class="a2" d="M0 20 L30 42 L60 20"></path>
+        <path class="a3" d="M0 40 L30 62 L60 40"></path>
+      </svg>
+    </a>
+
+        <section id="about">
+          <div id="me">
+            <div class="pic"></div>
+            <p class="about-text">
+              Hi!, I'm Tomás, a beginner, self taught, front-end developer. I've
+              always been an adept when it comes to using a computer but I've never
+              really thought of using it as an actual work tool... until recently! I
+              got into HTML, CSS and Javascript, I'm also learning a bit about
+              React.JS, TypeScript and a few other frameworks and tools that have
+              caught my interest and I hope to make better use of soon. I'm really
+              looking forward to improve, create, grow, and learn even more, my
+              current objective is to become a MERN dev.
+            </p>
+          </div>
+          <div id="knowledge">
+            <div id="knowledge-btn-box">
+              <div class="btn-wrapper">
+                <div class="btn-container" id="btn-container-basics">
+                  <button class="knowledge-btn" id="html">
+                    HTML <i class="bx bxl-html5"></i>
+                  </button>
+                  <button class="knowledge-btn" id="css">
+                    CSS <i class="bx bxl-css3"></i>
+                  </button>
+                  <button class="knowledge-btn" id="js">
+                    JavaScript <span class="missingicon">JS</span>
+                  </button>
+                  <button class="knowledge-btn" id="bootstrap">
+                    Bootstrap <i class="bx bxl-bootstrap"></i>
+                  </button>
+                </div>
+                <p id="basics">[Basics]</p>
+              </div>
+              <div class="btn-wrapper">
+                <div class="btn-container" id="btn-container-advanced">
+                  <button class="knowledge-btn" id="react">
+                    React.JS <i class="bx bxl-react"></i>
+                  </button>
+                  <button class="knowledge-btn" id="TS">
+                    TypeScript <span class="missingicon">TS</span>
+                  </button>
+                </div>
+                <p id="advanced">[Advanced]</p>
+              </div>
+              <div class="btn-wrapper">
+                <div class="btn-container" id="btn-container-misc">
+                  <button class="knowledge-btn" id="sass">
+                    SASS <i class="bx bxl-sass"></i>
+                  </button>
+                  <button class="knowledge-btn" id="git">
+                    Git <i class="bx bxl-git"></i>
+                  </button>
+                  <button class="knowledge-btn" id="VScode">
+                    VSCode <i class="bx bxl-visual-studio"></i>
+                  </button>
+                </div>
+                <p id="misc">[Misc]</p>
+              </div>
+            </div>
+            <div id="knowledge-box">
+              <div id="reflection">
+                <div id="reflection-wrapper">
+                  <div class="static" id="static">
+                    <div id="btn-reflection">
+                      <div class="scan" id="scan">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="btn-info">
+                <p id="btn-info-text">
+                <div class="wavy" id="wavy">
+                  <span style="--i:1;">P</span>
+                  <span style="--i:2;">r</span>
+                  <span style="--i:3;">e</span>
+                  <span style="--i:4;">s</span>
+                  <span style="--i:5;">s</span>
+                  <span style="--i:6;"> </span>
+                  <span style="--i:7;">a</span>
+                  <span style="--i:8;"> </span>
+                  <span style="--i:9;">b</span>
+                  <span style="--i:10;">u</span>
+                  <span style="--i:11;">t</span>
+                  <span style="--i:12;">t</span>
+                  <span style="--i:13;">o</span>
+                  <span style="--i:14;">n</span>
+                  <span style="--i:15;">.</span>
+                  <span style="--i:16;">.</span>
+                  <span style="--i:17;">.</span>
+
+                </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="work-examples">
+          <div id="grid">
+            <a href="">
+              <div id="vitto">
+                <div class="ribbon ribbon-top-right"><span>NEW!</span></div>
+              </div>
+              <div class="floating-example-text" id="floating-vitto-text">Vitto Cerveceria</div>
+            </a>
+            <a href="">
+              <div id="hideout">
+                <span class="knowledge-btn"
+                  style="color:white;font-family:'Gill Sans Extrabold', Helvetica, sans-serif;font-size:5rem">H!</span>
+                <div class="ribbon ribbon-top-right"><span>NEW!</span></div>
+              </div>
+              <div class="floating-example-text" id="floating-hideout-text">Hideout!</div>
+            </a>
+            <a>
+              <div id="upcoming">
+                <div class="container">
+                  <div class="banner" id="banner">
+                    <div class="box align">
+                      <marquee behavior="scroll" direction="left" scrollamount="25">
+                        /// in progress ///
+                      </marquee>
+                    </div>
+                  </div>
+                  <div class="indicator" id="indicator">
+                    <svg height="50" width="50">
+                      <polygon points="25,10 40,40 10,40" style="fill:#ff0000;stroke:#000;stroke-width:7" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="floating-example-text" id="floating-upcoming-text">???</div>
+            </a>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div id="interests">
+            <div class="interests-grid">
+              <div class="life">
+                <h1>Summary</h1>
+                <p>From young age worked as an upholsterer and went to a highschool with a focus on business administration and accounting.</p>
+                <p> After highschool, I went to the UNLP aiming to become a public accountant but due to some issues and needs I've had to travel and move to a different city, and got into marketing instead, sadly as I've been needing to travel often for a few years I couldn't find enough time to focus and be dedicated with my studies, let alone being able to assist to all my classes or exams.</p>
+                <p> While I've always had an interest on economics and accounting I have decided to focus on programming instead as it provides greater comfort to my needs and it'll be easier to adapt to with my current skills.</p>
+              </div>
+              <div class="aspirations">
+                <h1>Aspirations</h1>
+                <p> I'm eager to improve, grow and learn as a person and as a front-end developer, then carry on even further aiming to be a full stack dev.</p>
+                <p>Taking this opportunity to deepen my problem-solving capabilities and become a professional when it comes to coding, I wish to be able to create or assist in the making of convenient, easy to read, optimized code for users and coworkers alike.</p>
+              </div>
+              <div class="traits">
+                <h1>Traits</h1>
+                <ol>
+                  <li>Intermediate spoken english</li>
+                  <li>Advanced written english</li>
+                  <li>Project Management</li>
+                  <li>Team-oriented</li>
+                  <li>Communicative</li>
+                  <li>Responsible</li>
+                  <li>Willing to learn</li>
+                  <li>Determined</li>
+                  <li>Integrity</li>
+                </ol>
+              </div>
+              <div class="likeshobbies">
+                <h1>Likes & Hobbies</h1>
+                <ol>
+                  <li>Music (and making it!)</li>
+                  <li>Theater (sometimes acting too)</li>
+                  <li>Videogames and tabletop games</li>
+                  <li>Horror stuff (and making it)</li>
+                  <li>Sometimes challenges...</li>
+                  <li>Meeting new people!</li>
+                  <li>Puzzles and riddles</li>
+                  <li>Helping out others</li>
+                  <li>Sometimes Math...</li>
+                  <li>Photography</li>
+                  <li>Fat cats</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="links">
+            <div class="socials">
+              <div class="socials-item">
+                <a href="https://www.linkedin.com/in/tom%C3%A1s-fierro-b%C3%A9rtole-198a6121b/"
+                  class="socials-item-icon socials-item-icon__linkedin" target="_blank">
+                  <i>
+                    <span></span>
+                  </i>
+                </a>
+              </div>
+              <div class="socials-item">
+                <a href="mailto:TomasFierroB@gmail.com" class="socials-item-icon socials-item-icon__codepen"
+                  target="_blank">
+                  <i>
+                    <span></span>
+                  </i>
+                </a>
+              </div>
+              <div class="socials-item">
+                <a href="https://github.com/GodSwat" class="socials-item-icon socials-item-icon__github"
+                  target="_blank">
+                  <i>
+                    <span></span>
+                  </i>
+                </a>
+              </div>
+              <div class="socials-item">
+                <a href="https://www.instagram.com/godswat/" class="socials-item-icon socials-item-icon__instagram"
+                  target="_blank">
+                  <i>
+                    <span></span>
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="end-of-the-line">
+          
+          <div id="eotl-container">
+            <div id="credit">
+              <h1>Thanks to:</h1>
+              <a href="https://marazzam.github.io/portfolio/" id="thanksMarazza" target="blank"></a>
+              <a href="https://marazzam.github.io/techdesign" id="thanksTD" target="blank"></a>
+              <p>Without them I wouldn't be learning programming at all right now, it's been a huge help and a fun journey, there's still a lot more to see!</p>
+            </div>
+            <div id="switchOFF">
+              <div id="switchOFFcontainer">
+                <p id="switchOFFquestion">Will you press the switch?</p>
+                <div id="ONOFFcontainer">
+                  <button id="OFF">
+                    OFF
+                  </button>
+                  <button id="ON">
+                    ON
+                  </button>
+                </div>
+                <p id="switchOFFstatus">The switch is now <span id="statuscolor">OFF</span>.</p>
+              </div>
+            </div>
+            <div id="additionalworks">
+              <h1>Additional works</h1>
+              <div id="AWimg"></div>
+            </div>
+            <div id="finale"><p id="finaletext">
+              Thank you for your time and checking out my site, hope you've liked it!
+            </p>
+            <svg id="icon-heart" width="32" viewBox="-2 -2 32 32">
+              <title>heart</title>
+              <path class="gradient-path" d="M14 26c-0.25 0-0.5-0.094-0.688-0.281l-9.75-9.406c-0.125-0.109-3.563-3.25-3.563-7 0-4.578 2.797-7.313 7.469-7.313 2.734 0 5.297 2.156 6.531 3.375 1.234-1.219 3.797-3.375 6.531-3.375 4.672 0 7.469 2.734 7.469 7.313 0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375c-0.187 0.187-0.438 0.281-0.688 0.281z"></path>
+              </svg>
+          </div>
+          </div>
+
+          <div class="scroll text1">
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+          </div>
+          <div class="scroll text2">
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+          </div>
+          <div class="scroll text3">
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+          </div>
+          <div class="scroll text4">
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+          </div>
+          <div class="scroll text5">
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+            <div>
+              End of <span>the Line ▬ </span>End of <span>the Line ▬</span> End of <span>the Line ▬ </span>End of <span>the Line ▬</span>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- <footer> -->
+        <!-- </footer> -->
+        <script src="/files/js/main.js"></script>
+        <script src="/files/js/knowledge.js"></script>
+        <script src="/files/js/buttons.js"></script>
+        <script src="/files/js/whitenoise.js"></script>
+        <script src="/files/js/inprogress.js"></script>
+        <script src="/files/js/navbar.js"></script>
+        <script src="/files/js/heart.js"></script>
+        <script src="/files/js/EndOfTheLine.js"></script>
+        <script src="/files/js/mobilemenu.js"></script>
+</body>
+</html>

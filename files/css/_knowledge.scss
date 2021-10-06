@@ -1,0 +1,175 @@
+@import url('https://matiaslescano.com.ar/static/fonts/pixelicious.css');
+
+#about {
+  margin: auto;
+  width: 80vw;
+  background-color: rgba(128, 17, 17, 0.199);
+  padding: 40px;
+  border: rgba(179, 174, 174, 0.808) solid;
+}
+
+#me {
+  margin: auto;
+  height: 25rem;
+  width: 60vw;
+  background-color: rgba(12, 11, 11, 0.486);
+  margin-bottom: 40px;
+  border: rgba(179, 174, 174, 0.808) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pic {
+  background-image: url(/files/images/test.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: white solid;
+  width: 14rem;
+  height: 20rem;
+}
+
+.about-text {
+  background-color: rgba(0, 0, 0, 0.63);
+  border: white solid;
+  color: white;
+  font-size: 1.8rem;
+  text-align: justify;
+  margin: 40px;
+  padding: 15px;
+  width: 50rem;
+  height: 19rem;
+  overflow-y: hidden;
+}
+
+#knowledge {
+  margin: auto;
+  background-color: rgba(0, 0, 255, 0.404);
+  border: rgba(179, 174, 174, 0.808) solid;
+}
+
+
+#knowledge-box {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.384);
+  width: 50vw;
+  height: 20rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+#reflection-wrapper {
+	position: relative;
+	width: 14rem;
+	height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border: white solid;
+}
+
+
+#btn-reflection{
+  z-index: 2;
+  margin: 5px;
+  padding: 60px;
+  width: 14rem;
+  height: 17rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Press Start 2P", cursive;
+  cursor: no-drop;
+  background-color: #000000;
+  color: rgb(102, 100, 100);
+  border: rgb(255, 255, 255) solid 2px;
+  &:hover{
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: black;
+    mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    mask-size: 200%;
+    -webkit-mask-size: 200%;
+    }
+}
+
+
+#btn-info{
+  margin-left: 20px;
+  width: 40rem;
+  height: 15rem;
+  background-color: rgba(0, 0, 0, 0.562);
+  box-shadow: 
+  0 0 0 5px hsla(0, 0%, 100%, 0.699),
+  0 0 0 15px hsla(0, 0%, 0%, 0.452);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Aldrich', sans-serif;
+}
+
+#btn-info-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+#btn-info-text:hover{
+    mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    mask-size: 200%;
+    -webkit-mask-size: 200%;
+  }
+
+  @keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
+  
+.wavy {
+  position: relative;
+  -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+.wavy span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  animation: animate 1.5s ease-in-out infinite;
+  animation-delay: calc(.1s * var(--i))
+}
+@keyframes animate {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,291 @@
+#end-of-the-line{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #eotl-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: row wrap;
+  }
+
+
+#end-of-the-line .scroll{
+    width: 100%;
+    display: flex;
+}
+
+#end-of-the-line .scroll div{
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0);
+    font-size: 4em;
+    background: rgba(0, 0, 0, 0);
+    white-space: nowrap;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: endline 40s linear infinite;
+    animation-delay: -40s;
+    user-select: none;
+}
+
+#end-of-the-line .scroll div:nth-child(2){
+    animation: endline2 40s linear infinite;
+    animation-delay: -20s;
+}
+
+#end-of-the-line .scroll div span{
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0);
+}
+
+@keyframes endline {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes endline2 {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+
+#end-of-the-line .scroll.text1{
+    transform: rotate(290deg) translateY(15rem) translateX(-200px);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+#end-of-the-line .scroll.text2{
+    transform: rotate(-25deg) translateY(-50rem) translateX(-200px);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+#end-of-the-line .scroll.text3{
+    transform: rotate(25deg) translateY(-50rem) translateX(-200px);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+#end-of-the-line .scroll.text4{
+    transform: rotate(35deg) translateY(-150px) translateX(-50rem);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+#end-of-the-line .scroll.text5{
+    transform: rotate(5deg) translateY(-30rem) translateX(-20rem);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+
+#switchOFF {
+    height: 36rem;
+    width: 48rem;
+    background-color: rgb(0, 0, 0);
+    border: white solid 2px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#credit {
+    height: 40rem;
+    width: 30rem;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin: 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: .5s;
+    user-select: none;
+
+}
+
+#additionalworks{
+    height: 40rem;
+    width: 30rem;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin: 20px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    user-select: none;
+    transition: .5s;
+}
+
+#finale{
+    width: 50rem;
+    margin: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.692);
+    border: white solid 2px;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+    transition: 1.5s;
+}
+
+
+#switchOFFcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(255, 255, 255) 6px;
+}
+#switchOFFquestion{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 3.8rem;
+    font-family: 'Geo', sans-serif;
+    text-transform: uppercase;
+    animation: questionflick 2s ease-in-out infinite;
+}
+
+@keyframes questionflick{
+    0%{
+        
+        opacity: 0.3;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.3;
+    }
+}
+
+#ONOFFcontainer{
+    display: flex;
+}
+
+#OFF{
+    border: solid #ff0000 5px;
+    color: white;
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    font-size: 10rem;
+    margin: 20px;
+    transition: 0.5s;
+    cursor: not-allowed;
+    &:hover{
+        color: white;
+        background: #ff0000;
+        box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    }
+}
+
+
+#ON{
+    color: #00ff00;
+    border: solid #00ff00 5px;
+    background: black;
+    width: 20rem;
+    height: 15rem;
+    font-size: 10rem;
+    margin: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover {
+        color: white;
+        background: #00ff00;
+        box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
+      }
+}
+
+#switchOFFstatus{
+    width: 40rem;
+    color: white;
+    border: solid white 2px;    
+    margin: 20px;
+    padding: 10px;
+    font-size: 4.2rem;
+    font-family: 'Geo', sans-serif;
+    text-transform: uppercase;
+}
+
+#statuscolor{
+    color: #ff0000;
+}
+
+#credit h1{
+    font-size: 5rem;
+    transition: 1s;
+}
+
+#additionalworks h1{
+    text-decoration: underline;
+    font-size: 3rem;
+    transition: 1s;
+}
+
+#thanksMarazza{
+    width: 20rem;
+    height: 14rem;
+    transition: .5s;
+    cursor: default;
+}
+
+#thanksTD{
+    width: 20rem;
+    height: 14rem;
+    transition: 1.5s;
+    cursor: default;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+#AWimg{
+    width: 20rem;
+    height: 14rem;
+    transition: 1.5s;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+#credit p{
+    text-align: center;
+    font-size: 1.3rem;
+    transition: 1.5s;
+}
+
+#icon-heart {
+    display: block;
+    margin: auto;
+    width: 50rem;
+    height: 18rem; }
+
+.gradient-path { 
+  fill: none; /* No fill so we're just enjoying the stroke */
+  stroke-width: 2; /* Make the stroke a bit wider so we can see it better */
+  stroke-linecap: round; /* Make the stroke edges nice & round */
+  stroke-linejoin: round; /* Smooth out corners */
+  
+  --total-offset: 0; /* CSS var that will be populated by the JS for the CSS animation */
+  animation: stroke-anim 6s linear infinite;
+}
+
+/* Go from the current `stroke-dashoffset` (set in the JS), to the total offset (provided by the JS in the CSS var */
+@keyframes stroke-anim {
+  to { stroke-dashoffset: var(--total-offset); }
+}

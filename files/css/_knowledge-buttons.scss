@@ -1,0 +1,306 @@
+
+#basics, #advanced, #misc {
+    text-align: center;
+    font-family: Pixelicious, monospace;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    color: transparent;
+    filter: blur(.3px);
+    animation: 2s ease-in-out infinite alternate pulse;
+  }
+  
+  #knowledge-btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+  
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+  }
+  
+  .knowledge-btn {
+    margin: 5px;
+    padding: 60px;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Press Start 2P", cursive;
+    cursor: pointer;
+    background-color: #00000091;
+    color: rgb(102, 100, 100);
+    border: rgb(255, 255, 255) solid 0.3px;
+    transition: 0.6s;  
+    &:hover, &:focus{
+      background-color: #000000cb;
+    }
+  }
+  
+  .missingicon{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+  }
+  .bx {
+    font-size: 5rem;
+  }
+  
+  #html {
+    &:hover,
+    &:focus {
+      border: rgb(207, 76, 15) solid 1px;
+      color: rgba(233,98,40,255) !important;
+      text-shadow: 1px 1px 2px black;    
+    }
+  }
+  
+  #css {
+    &:hover,
+    &:focus {
+      border: rgb(0, 153, 255) solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(30,168,219,255) !important;
+    }
+  }
+  
+  #js {
+    font-size: 0.7rem;
+    &:hover,
+    &:focus {
+      border: rgba(239,216,29,255) solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(239,216,29,255) !important;
+    }
+  }
+  
+  #bootstrap {
+    font-size: 0.8rem;
+    &:hover,
+    &:focus {
+      border: purple solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(121,82,179,255) !important;
+    }
+  }
+  
+  #react {
+    font-size: 0.8rem;
+    font-weight: 500;
+    &:hover,
+    &:focus {
+      border: cyan solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(97,218,251,255) !important;
+    }
+  }
+  
+  #TS {
+    font-size: 0.7rem;
+    &:hover,
+    &:focus {
+      color: rgba(47,116,192,255) !important;
+      border: rgb(45, 1, 206) solid 0.3px;
+    }
+  }
+  
+  #sass {
+    &:hover,
+    &:focus {
+      border: red solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(191,64,128,255) !important;
+    }
+  }
+  
+  #git {
+    &:hover,
+    &:focus {
+      border: orange solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(232,77,49,255) !important;
+    }
+  }
+  
+  #VScode {
+    font-size: 0.8rem;
+    &:hover,
+    &:focus {
+      border: rgb(8, 47, 223) solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(3,139,207,255) !important;
+    }
+  }
+  
+  
+  @keyframes htmltransition{  
+    0%{
+      border: rgb(207, 76, 15) solid 1px;
+      color: rgba(233,98,40,255);
+      text-shadow: 1px 1px 2px black;     
+    }
+    100%{
+      color: rgb(102, 100, 100);
+      animation-play-state: paused;
+    }  
+  }
+  
+  @keyframes csstransition{
+    0%{
+      color: rgb(102, 100, 100);
+    }
+    10%{
+      border: rgb(0, 153, 255) solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(30,168,219,255);
+    }
+    100%{
+      color: rgb(102, 100, 100);
+    }  
+  }
+  @keyframes jstransition{
+    0%{
+      color: rgb(102, 100, 100);
+    }  
+    10%{
+      border: rgba(239,216,29,255) solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(239,216,29,255);
+    }
+    100%{
+      color: rgb(102, 100, 100);
+    }  
+  }
+  
+  @keyframes bstransition{
+    0%{
+      color: rgb(102, 100, 100);
+    }  
+    10%{
+      border: purple solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(121,82,179,255);
+    }
+    100%{
+      color: rgb(102, 100, 100);
+    }  
+  }
+  
+  @keyframes reacttransition{
+    0%{
+      color: rgb(102, 100, 100);
+    }
+    10%{
+      border: cyan solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(97,218,251,255);
+    }
+    100%{
+      color: rgb(102, 100, 100);
+    }  
+  }
+  
+  @keyframes tstransition{
+    0%{
+      color: rgb(102, 100, 100);
+    }  
+    10%{
+      color: rgba(47,116,192,255);
+      border: rgb(45, 1, 206) solid 1px;
+      text-shadow: 1px 1px 2px black;
+    }
+    100%{
+      color: rgb(102, 100, 100);
+    }  
+  }
+  
+  @keyframes sasstransition{
+    0%{
+      color: rgb(102, 100, 100);
+    }  
+    10%{
+      border: red solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(191,64,128,255);
+    }
+    100%{
+      color: rgb(102, 100, 100);
+    }  
+  }
+  
+  @keyframes gittransition{
+    0%{
+      color: rgb(102, 100, 100);
+    }  
+    10%{
+      border: orange solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(232,77,49,255);
+    }
+    100%{
+      color: rgb(102, 100, 100);
+    }  
+  }
+  
+  @keyframes VScodetransition{
+    0%{
+      color: rgb(102, 100, 100);
+    }
+    10%{
+      border: rgb(8, 47, 223) solid 0.3px;
+      text-shadow: 1px 1px 2px black;
+      color: rgba(3,139,207,255);
+    }
+    100%{
+      color: rgb(102, 100, 100);
+    }  
+  }
+  
+  
+  @keyframes pulse {
+    $color-a-1: #fff;
+    $color-a-2: #b3faff;
+    $color-b-1: #0bca9e;
+    $color-b-2: #ca45d7;
+    $pos-1: -.06em -.06em;
+    $pos-2: -.15em -.15em;
+    
+    0% {
+      text-shadow:
+        rgba($color-a-1, .9) $pos-1,
+        rgba($color-b-1, .9) 0 0
+    }
+    
+    33% {
+      text-shadow:
+        rgba(mix($color-a-1, $color-a-2, 33%), .9) $pos-2,
+        rgba(mix($color-b-1, $color-b-2, 33%), .9) 0 0
+    }
+    
+    66% {
+      text-shadow:
+        rgba(mix($color-a-1, $color-a-2, 66%), .9) $pos-1,
+        rgba(mix($color-b-1, $color-b-2, 33%), .9) 0 0
+    }
+    
+    100% {
+      text-shadow:
+        rgba($color-a-2, .9) $pos-2,
+        rgba($color-b-2, .9) 0 0
+    }
+  }
