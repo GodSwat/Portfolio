@@ -20,7 +20,7 @@
 body, html{
   overflow-x: hidden;
   scroll-behavior: smooth;
-  
+
 }
 
 body{
@@ -185,7 +185,7 @@ body{
 
   #vitto{
     grid-area: 1 / 1 / 2 / 2;
-    background-image: url(/files/images/mobilegrid2.webp);
+    background-image: url(../images/mobilegrid2.webp);
     background-size: cover;
     box-shadow: 200px 15px 13px 0px rgba(0,0,0,1);
     -webkit-box-shadow: 20px 15px 13px 0px rgba(0,0,0,1);
@@ -206,7 +206,7 @@ body{
 
   #hideout{
     grid-area: 1 / 2 / 2 / 3;
-    background-image: url(/files/images/grid2.webp);
+    background-image: url(../images/grid2.webp);
     background-size: cover;
     background-position: center center;
     box-shadow: 200px 15px 13px 0px rgba(0,0,0,1);
@@ -530,7 +530,7 @@ body{
   
   .pic {
     margin-top: 10px;
-    background-image: url(/files/images/test.webp);
+    background-image: url(../images/test.webp);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
