@@ -98,7 +98,10 @@
     text-decoration-line: underline;
   }
 
-  .traits { grid-area: traits; }
+  .traits {
+    grid-area: traits;
+    padding: 40px;
+  }
   
   .traits ol{
     font-size: 2rem;
