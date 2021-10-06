@@ -166,7 +166,7 @@
 }
 
 .pic {
-  background-image: url(/files/images/test.webp);
+  background-image: url(../images/test.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1008,9 +1008,7 @@
 
 @-webkit-keyframes buttonreflectiontextanim {
   0%, 100% {
-    text-shadow: yellowgreen,
- yellowgreen,
- yellowgreen;
+    text-shadow: yellowgreen, yellowgreen, yellowgreen;
   }
   50% {
     text-shadow: none;
@@ -1019,9 +1017,7 @@
 
 @keyframes buttonreflectiontextanim {
   0%, 100% {
-    text-shadow: yellowgreen,
- yellowgreen,
- yellowgreen;
+    text-shadow: yellowgreen, yellowgreen, yellowgreen;
   }
   50% {
     text-shadow: none;
@@ -1750,8 +1746,7 @@
   grid-auto-flow: column dense;
   -ms-flex-line-pack: justify;
       align-content: space-between;
-      grid-template-areas: "life life traits"
- "likeshobbies aspirations aspirations";
+      grid-template-areas: "life life traits" "likeshobbies aspirations aspirations";
 }
 
 .interests-grid div {
@@ -1842,6 +1837,7 @@ ol {
 }
 
 .traits {
+  padding: 40px;
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: traits;
@@ -2786,7 +2782,7 @@ canvas {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 1 / 1 / 2 / 2;
-  background-image: url(/files/images/mobilegrid2.webp);
+  background-image: url(../images/mobilegrid2.webp);
   background-size: cover;
   box-shadow: 200px 15px 13px 0px black;
   -webkit-box-shadow: 20px 15px 13px 0px black;
@@ -2817,7 +2813,7 @@ canvas {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3;
-  background-image: url(/files/images/grid2.webp);
+  background-image: url(../images/grid2.webp);
   background-size: cover;
   background-position: center center;
   box-shadow: 200px 15px 13px 0px black;
@@ -3223,7 +3219,7 @@ canvas {
   }
   .pic {
     margin-top: 10px;
-    background-image: url(/files/images/test.webp);
+    background-image: url(../images/test.webp);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
