@@ -3386,6 +3386,43 @@ canvas {
   }
 }
 
+@media only screen and (max-width: 1763px) {
+  #knowledge-box {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 1468px) {
+  #knowledge-box {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1216px) {
+  #btn-info-text {
+    font-size: 1.4rem !important;
+  }
+  #btn-info {
+    width: 35rem;
+  }
+}
+
+@media only screen and (max-width: 1073px) and (min-width: 985px) {
+  #btn-info-text {
+    font-size: 1.2rem !important;
+  }
+  #btn-info {
+    width: 28rem;
+  }
+}
+
+@media only screen and (max-width: 984px) and (min-width: 575px) {
+  #btn-info {
+    width: auto !important;
+    height: 19rem !important;
+  }
+}
+
 @media only screen and (max-width: 984px) {
   #startup {
     padding-top: 10rem;
@@ -3576,9 +3613,7 @@ canvas {
             flex-direction: column;
     text-align: center;
     height: 30rem;
-  }
-  #btn-info-text {
-    width: 100vw;
+    padding: 40px;
   }
   .wavy span {
     font-size: 1.7em;
