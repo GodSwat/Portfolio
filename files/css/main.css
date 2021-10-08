@@ -345,6 +345,12 @@
           animation-delay: calc(.1s * var(--i));
 }
 
+@media only screen and (max-width: 436px) {
+  .wavy span {
+    font-size: 1.2rem !important;
+  }
+}
+
 @-webkit-keyframes animate {
   0%, 100% {
     -webkit-transform: translateY(0px);
